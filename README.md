@@ -7,7 +7,7 @@ This is apache 2 license. you are free to copy and use to build your own catalog
 
 
 
-# Contact <email> if you need assistance and support to establish a relationship to develop yor own with D2iQ Professional services. 
+# Contact <email> if you need assistance and support to establish a relationship to develop your own with D2iQ Professional services. 
   
  
 
