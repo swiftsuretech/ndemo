@@ -11,7 +11,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: charts.gitlab.io
-        namespace: ${releaseNamespace}
+        namespace: software-factory-project
       version: 6.5.1
   interval: 15s
   install:
@@ -25,4 +25,4 @@ spec:
   valuesFrom:
     - kind: ConfigMap
       name: gitlab-6.5.1-defaults
-  targetNamespace: ${releaseNamespace}
+  targetNamespace: software-factory-project
