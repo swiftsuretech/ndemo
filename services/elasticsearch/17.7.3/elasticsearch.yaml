@@ -10,9 +10,9 @@ spec:
       chart: elasticsearch
       sourceRef:
         kind: HelmRepository
-        name: mesosphere.github.io-charts-stable
+        name: elastic
         namespace: ${releaseNamespace} 
-      version: 2.0.0
+      version: 7.17.3
   interval: 15s
   install:
     remediation:
