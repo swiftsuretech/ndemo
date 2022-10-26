@@ -2,7 +2,7 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: gitlab
+  name: ghost
   namespace: ${releaseNamespace}
 spec:
   chart:
@@ -21,7 +21,7 @@ spec:
   upgrade:
     remediation:
       retries: 30
-  releaseName: gitlab
+  releaseName: ghost
 #  valuesFrom:
 #    - kind: ConfigMap
  #     name: gitlab-6.5.1-defaults
