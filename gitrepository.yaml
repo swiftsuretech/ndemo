@@ -5,6 +5,7 @@ metadata:
     kommander.d2iq.io/gitapps-gitrepository-type: catalog
     kommander.d2iq.io/gitrepository-type: catalog
   name: bigbang-catalog
+  namespace: software-factory-project
 spec:
   interval: 30s
   ref:
