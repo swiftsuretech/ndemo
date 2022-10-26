@@ -3,7 +3,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: gitlab-6.5.1-defaults
-  namespace: ${releaseNamespace}
+  namespace: software-factory-project
 data:
   values.yaml: |-
     certmanager:
