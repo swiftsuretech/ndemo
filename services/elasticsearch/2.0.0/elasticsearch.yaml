@@ -3,7 +3,7 @@ apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
   name: elasticsearch
-  namespace: software-factory-project
+  namespace: ${releaseNamespace}
 spec:
   chart:
     spec:
@@ -11,7 +11,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: mesosphere.github.io-charts-stable
-        namespace: software-factory-project 
+        namespace: ${releaseNamespace} 
       version: 2.0.0
   interval: 15s
   install:
@@ -25,4 +25,4 @@ spec:
   valuesFrom:
     - kind: ConfigMap
       name: elasticsearch-2.0.0-d2iq-defaults
-  targetNamespace: software-factory-project
+  targetNamespace: ${releaseNamespace}

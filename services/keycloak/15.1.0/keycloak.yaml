@@ -3,7 +3,7 @@ apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
   name: keycloak
-  namespace: software-factory-project
+  namespace: ${releaseNamespace}
 spec:
   chart:
     spec:
@@ -11,7 +11,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: codecentric.github.io
-        namespace: software-factory-project
+        namespace: ${releaseNamespace}
       version: 15.1.0
   interval: 15s
   install:
@@ -25,4 +25,4 @@ spec:
   valuesFrom:
     - kind: ConfigMap
       name: keycloak-15.1.0-defaults
-  targetNamespace: software-factory-project
+  targetNamespace: ${releaseNamespace}

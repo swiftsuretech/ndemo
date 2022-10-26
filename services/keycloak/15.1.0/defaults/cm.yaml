@@ -3,7 +3,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: keycloak-15.1.0-defaults
-  namespace: software-factory-project
+  namespace: ${releaseNamespace}
 data:
   values.yaml: |-
     ingress:

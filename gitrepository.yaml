@@ -11,4 +11,3 @@ spec:
     branch: davew
   timeout: 30s
   url: https://github.com/d2iq-ps/d2iq-ps-kommander-catalog.git
-
