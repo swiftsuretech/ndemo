@@ -11,7 +11,7 @@ metadata:
     kommander.d2iq.io/gitapps-gitrepository-type: catalog
     kommander.d2iq.io/gitrepository-type: catalog
   name: bigbang-catalog
-  namespace: bigbang-catalog
+  #namespace: bigbang-catalog
 
 spec:
   gitImplementation: go-git

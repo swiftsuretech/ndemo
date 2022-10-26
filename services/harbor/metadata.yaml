@@ -1,7 +1,7 @@
 displayName: harbor
 description: An open source trusted cloud native registry that stores, signs, and scans content
 category:
-  - My Applications
+  - bigbang
 type: catalog
 scope:
   - WORKSPACE
