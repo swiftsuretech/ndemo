@@ -3,7 +3,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
   name: charts.gitlab.io
-  namespace: ${releaseNamespace}
+  namespace: ${workspaceNamespace}
 spec:
   interval: 10m
   timeout: 1m
