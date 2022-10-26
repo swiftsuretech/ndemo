@@ -20,7 +20,7 @@ spec:
     createNamespace: false
   upgrade:
     remediation:
-      retries: 30
+      retries: 3
   releaseName: gitlab
   valuesFrom:
     - kind: ConfigMap
