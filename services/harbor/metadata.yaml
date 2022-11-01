@@ -4,7 +4,7 @@ category:
   - bigbang
 type: catalog
 scope:
-  #- workspace
+  - workspace
   - project
 overview: |-
   An open source trusted cloud native registry that stores, signs, and scans content
