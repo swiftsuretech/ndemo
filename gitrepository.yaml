@@ -8,6 +8,6 @@ metadata:
 spec:
   interval: 30s
   ref:
-    branch: davew
+    branch: main
   timeout: 30s
   url: https://github.com/d2iq-ps/d2iq-ps-kommander-catalog.git
