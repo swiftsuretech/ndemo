@@ -2,10 +2,10 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: harbor
+  name: bigbang
   namespace: ${workspaceNamespace}
   labels:
     kommander.d2iq.io/dkp-airgapped: unsupported
 spec:
-  url: ${helmMirrorURL:=https://helm.goharbor.io}
+  url: https://repo1.dso.mil/platform-one/big-bang/bigbang/-/tree/release-1.46.x/
   interval: 5m

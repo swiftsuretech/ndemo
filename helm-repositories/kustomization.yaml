@@ -7,3 +7,4 @@ resources:
   - harbor.yaml
   - mesosphere-stable-repo.yaml
   - elastic-repo.yaml
+  - bigbang.yaml
