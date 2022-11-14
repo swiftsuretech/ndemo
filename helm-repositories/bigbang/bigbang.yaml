@@ -7,5 +7,5 @@ metadata:
   labels:
     kommander.d2iq.io/dkp-airgapped: unsupported
 spec:
-  url: https://repo1.dso.mil/platform-one/big-bang/bigbang/-/tree/release-1.46.x/
+  url: https://repo1.dso.mil/platform-one/big-bang/bigbang/
   interval: 5m
