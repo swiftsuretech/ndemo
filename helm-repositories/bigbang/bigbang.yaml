@@ -8,5 +8,5 @@ metadata:
     kommander.d2iq.io/dkp-airgapped: unsupported
 spec:
   #url: https://repo1.dso.mil/platform-one/big-bang/bigbang
-  url: https://raw.githubusercontent.com/d2iq-ps/charts/experimental/
+  url: https://raw.githubusercontent.com/d2iq-ps/charts/experimental/bigbang/
   interval: 5m
