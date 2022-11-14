@@ -2,15 +2,15 @@ apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
   name: bigbang
-  namespace: bigbang
+  namespace: ${releaseNamespace}
 spec:
   chart:
     spec:
       chart: bigbang
       sourceRef:
-        kind: GitRepository
+        kind: HelmRepository
         name: bigbang
-        namespace: bigbang 
+        namespace: ${releaseNamespace} 
       version: 1.46.1
   interval: 15s
   install:
@@ -21,4 +21,4 @@ spec:
     remediation:
       retries: 30
   releaseName: bigbang
-  targetNamespace: bigbang
+  targetNamespace: ${releaseNamespace}
