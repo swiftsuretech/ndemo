@@ -1,7 +1,7 @@
 displayName: GitLab
 description: This deploys an instance of GitLab in the project
 category:
-  - bigbang
+  - My Catalogue Apps
 type: catalog
 scope:
   - project
