@@ -4,10 +4,10 @@ metadata:
   labels:
     kommander.d2iq.io/gitapps-gitrepository-type: catalog
     kommander.d2iq.io/gitrepository-type: catalog
-  name: bigbang-catalog
+  name: demo-catalog
 spec:
   interval: 30s
   ref:
     branch: main
   timeout: 30s
-  url: https://github.com/d2iq-ps/d2iq-ps-kommander-catalog.git
+  url: https://github.com/swiftsuretech/ndemo.git

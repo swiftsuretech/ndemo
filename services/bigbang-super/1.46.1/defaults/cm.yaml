@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: bigbang-1.46.1-defaults
-  namespace: ${releaseNamespace}
-data:
