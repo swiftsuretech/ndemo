@@ -1,12 +1,11 @@
-displayName: Spark Operator
+displayName: Spark
 description: Spark Operator uses Kubernetes custom resources for specifying, running, and surfacing status of Spark applications.
 allowMultipleInstances: false
 category:
-  - Data Services
-certifications:
-  - certified
-  - airgapped
+  - Custom Catalogue Apps
+type: catalog
 scope:
+  - project
   - workspace
 overview: |-
   ## Overview
