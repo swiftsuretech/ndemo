@@ -1,0 +1,11 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: HelmRepository
+metadata:
+  name: googlecloudplatform.github.io-spark-on-k8s-operator
+  namespace: ${releaseNamespace}
+  labels:
+    kommander.d2iq.io/dkp-airgapped: supported
+spec:
+  url: "${helmMirrorURL:=https://googlecloudplatform.github.io/spark-on-k8s-operator}"
+  interval: 10m
