@@ -1,10 +1,10 @@
 displayName: Elastic / Kibana Operator
 description: A search engine based on the Lucene library.
 category:
-  - Data Services
-certifications:
-  - airgapped
+  - Custom Catalogue Apps
+type: catalog
 scope:
+  - project
   - workspace
 overview: |-
   # Overview
