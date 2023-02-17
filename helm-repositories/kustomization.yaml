@@ -11,5 +11,4 @@ resources:
   - pravega.yaml
   - spark.yaml
   - swiftsuretech.yaml
-  - elastic-repo.yaml:x
-  
+  - elastic-repo.yaml
